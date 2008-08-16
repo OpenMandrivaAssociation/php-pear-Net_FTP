@@ -7,11 +7,11 @@
 
 Summary:	%{_pearname} - comfortable communication with FTP-servers
 Name:		php-pear-%{_pearname}
-Version:	1.3.2
-Release:	%mkrel 3
+Version:	1.3.7
+Release:	%mkrel 1
 License:	PHP License
 Group:		Development/PHP
-Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tar.bz2
+Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 URL:		http://pear.php.net/package/Net_FTP/
 Requires:	php-ftp
 Requires(post): php-pear
@@ -19,7 +19,7 @@ Requires(preun): php-pear
 Requires:	php-pear
 BuildArch:	noarch
 BuildRequires:	dos2unix
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 This class allows you to communicate with FTP-servers more comfortable
@@ -82,5 +82,3 @@ rm -rf %{buildroot}
 %{_datadir}/pear/%{_class}/*.php
 %{_datadir}/pear/%{_class}/%{_subclass}
 %{_datadir}/pear/packages/%{_pearname}.xml
-
-
