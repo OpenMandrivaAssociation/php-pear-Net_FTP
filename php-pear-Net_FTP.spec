@@ -5,8 +5,8 @@
 %define		_requires_exceptions pear(Net/FTP/Observer.php)
 
 Name:		php-pear-%{upstream_name}
-Version:	1.3.7
-Release:	%mkrel 6
+Version:	1.4.0a2
+Release:	%mkrel 1
 Summary:	Comfortable communication with FTP-servers
 License:	PHP License
 Group:		Development/PHP
