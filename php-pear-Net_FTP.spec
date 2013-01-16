@@ -2,8 +2,6 @@
 %define		_subclass	FTP
 %define		upstream_name	%{_class}_%{_subclass}
 
-%define		_requires_exceptions pear(Net/FTP/Observer.php)
-
 Name:		php-pear-%{upstream_name}
 Version:	1.3.7
 Release:	%mkrel 7
