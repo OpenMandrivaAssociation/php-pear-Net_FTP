@@ -4,7 +4,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	1.3.7
-Release:	8
+Release:	9
 Summary:	Comfortable communication with FTP-servers
 License:	PHP License
 Group:		Development/PHP
