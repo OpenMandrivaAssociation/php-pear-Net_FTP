@@ -4,12 +4,12 @@
 
 Summary:	Comfortable communication with FTP-servers
 Name:		php-pear-%{modname}
-Version:	1.3.7
-Release:	15
+Version:	1.4.0
+Release:	1
 License:	PHP License
 Group:		Development/PHP
 Url:		http://pear.php.net/package/Net_FTP/
-Source0:	http://download.pear.php.net/package/%{modname}-%{version}.tgz
+Source0:	http://download.pear.php.net/package/Net_FTP-%{version}.tgz
 BuildArch:	noarch
 BuildRequires:	php-pear
 Requires:	php-ftp
@@ -42,4 +42,3 @@ install -m 644 %{modname}.xml %{buildroot}%{_datadir}/pear/packages
 %doc %{modname}-%{version}/CHANGELOG
 %{_datadir}/pear/%{_class}
 %{_datadir}/pear/packages/%{modname}.xml
-

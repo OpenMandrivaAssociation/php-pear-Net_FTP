@@ -1,2 +1,4 @@
+removed_sources:
+  Net_FTP-1.3.7.tgz: 42c9258c44f90dc8d038eacaf3979f21f2f3174c
 sources:
-  "Net_FTP-1.3.7.tgz": 42c9258c44f90dc8d038eacaf3979f21f2f3174c
+  Net_FTP-1.4.0.tgz: 36a3fa58b62a843ac75fac123f78c5faa913d5a3
