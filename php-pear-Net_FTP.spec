@@ -5,7 +5,7 @@
 Summary:	Comfortable communication with FTP-servers
 Name:		php-pear-%{modname}
 Version:	1.3.7
-Release:	15
+Release:	16
 License:	PHP License
 Group:		Development/PHP
 Url:		http://pear.php.net/package/Net_FTP/
